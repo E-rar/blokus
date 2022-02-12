@@ -1,0 +1,23 @@
+.gridContainer{
+    display:grid;
+    grid-template-columns: repeat(20,1fr);
+    width:620px;
+    height:620px;
+    gap:2px;
+    
+    justify-content:center;
+    div{
+        width:25px;
+        height:25px;
+        border:solid 1px rgb(155, 155, 155);
+        &:hover {
+            background-color: rgb(216, 216, 216);
+        }
+    }
+}
+.wrap{
+    display:flex;
+    justify-content:center;
+    width:100vw;
+    align-items:center;
+}
